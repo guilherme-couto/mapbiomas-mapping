@@ -6,32 +6,6 @@ O repositório pode gerar, como saída, mapas em alta resolução (**PNG/SVG**),
 
 ---
 
-## Exemplos de Mapas Gerados
-
-Abaixo estão três exemplos presentes na pasta `outputs/figs/examples/`, gerados a partir dos arquivos de configuração disponibilizados em `configs/examples/`:
-
-### 1. Amazônia (Nível 4) — Detalhamento Máximo
-Configuração utilizada: `configs/examples/amazonia.toml`  
-*(Gera também mapa interativo em `outputs/html/examples/` e raster em `outputs/geotiff/examples/`)*
-
-![Amazônia - Nível 4](outputs/figs/examples/mapa_amazonia_brazil_coverage-col11_2025_nivel_4.png)
-
----
-
-### 2. Caatinga (Nível 2) — Design Limpo sem Eixos
-Configuração utilizada: `configs/examples/caatinga.toml`
-
-![Caatinga - Nível 2](outputs/figs/examples/mapa_caatinga_brazil_coverage-col11_2025_nivel_2.png)
-
----
-
-### 3. Pantanal (Nível 3) — Com Linhas de Grade
-Configuração utilizada: `configs/examples/pantanal.toml`
-
-![Pantanal - Nível 3](outputs/figs/examples/mapa_pantanal_brazil_coverage-col11_2025_nivel_3.png)
-
----
-
 ## Obtenção dos Dados de Entrada
 
 ### 1. GeoTIFF do MapBiomas (Uso e Cobertura 2025)
@@ -139,3 +113,29 @@ Quando um nível intermediário (como Nível 2) é selecionado, os pixels com de
 ### Hierarquia personalizada
 
 Caso deseje criar uma hierarquia própria, com nomes e cores específicos, basta criar um arquivo JSON no mesmo formato de `legends/collection_11.json` e apontar o parâmetro `colecao_legenda` para o novo arquivo.
+
+---
+
+## Exemplos de Mapas Gerados
+
+Abaixo estão três exemplos presentes na pasta `outputs/figs/examples/`, gerados a partir dos arquivos de configuração disponibilizados em `configs/examples/`:
+
+### 1. Amazônia (Nível 4) — Detalhamento Máximo
+Configuração utilizada: `configs/examples/amazonia.toml`  
+*(Gera também mapa interativo em `outputs/html/examples/` e raster em `outputs/geotiff/examples/`)*
+
+![Amazônia - Nível 4](outputs/figs/examples/mapa_amazonia_brazil_coverage-col11_2025_nivel_4.png)
+
+---
+
+### 2. Caatinga (Nível 2) — Design Limpo sem Eixos
+Configuração utilizada: `configs/examples/caatinga.toml`
+
+![Caatinga - Nível 2](outputs/figs/examples/mapa_caatinga_brazil_coverage-col11_2025_nivel_2.png)
+
+---
+
+### 3. Pantanal (Nível 3) — Com Linhas de Grade
+Configuração utilizada: `configs/examples/pantanal.toml`
+
+![Pantanal - Nível 3](outputs/figs/examples/mapa_pantanal_brazil_coverage-col11_2025_nivel_3.png)
