@@ -14,21 +14,21 @@ Abaixo estão três exemplos presentes na pasta `outputs/figs/examples/`, gerado
 Configuração utilizada: `configs/examples/amazonia.toml`  
 *(Gera também mapa interativo em `outputs/html/examples/` e raster em `outputs/geotiff/examples/`)*
 
-![Amazônia - Nível 4](outputs/figs/examples/mapa_amazonia_brazil_coverage-col11_2025_nivel_4.jpg)
+![Amazônia - Nível 4](outputs/figs/examples/mapa_amazonia_brazil_coverage-col11_2025_nivel_4.png)
 
 ---
 
 ### 2. Caatinga (Nível 2) — Design Limpo sem Eixos
 Configuração utilizada: `configs/examples/caatinga.toml`
 
-![Caatinga - Nível 2](outputs/figs/examples/mapa_caatinga_brazil_coverage-col11_2025_nivel_2_2.jpg)
+![Caatinga - Nível 2](outputs/figs/examples/mapa_caatinga_brazil_coverage-col11_2025_nivel_2.png)
 
 ---
 
 ### 3. Pantanal (Nível 3) — Com Linhas de Grade
 Configuração utilizada: `configs/examples/pantanal.toml`
 
-![Pantanal - Nível 3](outputs/figs/examples/mapa_pantanal_brazil_coverage-col11_2025_nivel_3_2.jpg)
+![Pantanal - Nível 3](outputs/figs/examples/mapa_pantanal_brazil_coverage-col11_2025_nivel_3.png)
 
 ---
 
