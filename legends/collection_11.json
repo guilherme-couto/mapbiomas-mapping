@@ -1,0 +1,379 @@
+{
+  "collection": "11",
+  "name": "MapBiomas Brasil - Coleção 11 (2025)",
+  "classes": [
+    {
+      "id": 1,
+      "code": "1",
+      "name_pt": "Floresta",
+      "name_en": "Forest",
+      "hex_code": "#1f8d49",
+      "level": 1,
+      "parent_id": null
+    },
+    {
+      "id": 3,
+      "code": "1.1",
+      "name_pt": "Formação Florestal",
+      "name_en": "Forest Formation",
+      "hex_code": "#1f8d49",
+      "level": 2,
+      "parent_id": 1
+    },
+    {
+      "id": 6,
+      "code": "1.2",
+      "name_pt": "Floresta Alagável",
+      "name_en": "Floodable Forest",
+      "hex_code": "#007785",
+      "level": 2,
+      "parent_id": 1
+    },
+    {
+      "id": 4,
+      "code": "1.3",
+      "name_pt": "Formação Savânica",
+      "name_en": "Savanna Formation",
+      "hex_code": "#7dc975",
+      "level": 2,
+      "parent_id": 1
+    },
+    {
+      "id": 7,
+      "code": "1.4",
+      "name_pt": "Savana Alagada (beta)",
+      "name_en": "Flooded Savanna (beta)",
+      "hex_code": "#228c70",
+      "level": 2,
+      "parent_id": 1
+    },
+    {
+      "id": 5,
+      "code": "1.5",
+      "name_pt": "Mangue",
+      "name_en": "Mangrove",
+      "hex_code": "#04381d",
+      "level": 2,
+      "parent_id": 1
+    },
+    {
+      "id": 49,
+      "code": "1.6",
+      "name_pt": "Restinga Arbórea",
+      "name_en": "Wooded Sandbank Vegetation",
+      "hex_code": "#02d659",
+      "level": 2,
+      "parent_id": 1
+    },
+
+    {
+      "id": 10,
+      "code": "2",
+      "name_pt": "Vegetação Herbácea e Arbustiva",
+      "name_en": "Herbaceous or Shrubby Vegetation",
+      "hex_code": "#d6bc74",
+      "level": 1,
+      "parent_id": null
+    },
+    {
+      "id": 12,
+      "code": "2.1",
+      "name_pt": "Formação Campestre",
+      "name_en": "Grassland Formation",
+      "hex_code": "#d6bc74",
+      "level": 2,
+      "parent_id": 10
+    },
+    {
+      "id": 77,
+      "code": "2.2",
+      "name_pt": "Formação Herbáceo Arbustiva",
+      "name_en": "Herbaceous and Shrub Formation",
+      "hex_code": "#86b074",
+      "level": 2,
+      "parent_id": 10
+    },
+    {
+      "id": 11,
+      "code": "2.3",
+      "name_pt": "Campo Alagado e Área Pantanosa",
+      "name_en": "Wetland",
+      "hex_code": "#519799",
+      "level": 2,
+      "parent_id": 10
+    },
+    {
+      "id": 84,
+      "code": "2.4",
+      "name_pt": "Marisma (beta)",
+      "name_en": "Salt Marsh (beta)",
+      "hex_code": "#81dbbf",
+      "level": 2,
+      "parent_id": 10
+    },
+    {
+      "id": 50,
+      "code": "2.5",
+      "name_pt": "Restinga Herbácea ou Arbustiva",
+      "name_en": "Herbaceous Sandbank Vegetation",
+      "hex_code": "#ffaa5f",
+      "level": 2,
+      "parent_id": 10
+    },
+    {
+      "id": 32,
+      "code": "2.6",
+      "name_pt": "Apicum",
+      "name_en": "Hypersaline Tidal Flat",
+      "hex_code": "#fc8114",
+      "level": 2,
+      "parent_id": 10
+    },
+    {
+      "id": 29,
+      "code": "2.7",
+      "name_pt": "Afloramento Rochoso",
+      "name_en": "Rocky Outcrop",
+      "hex_code": "#ad5100",
+      "level": 2,
+      "parent_id": 10
+    },
+
+    {
+      "id": 14,
+      "code": "3",
+      "name_pt": "Agropecuária",
+      "name_en": "Farming",
+      "hex_code": "#ffefc3",
+      "level": 1,
+      "parent_id": null
+    },
+    {
+      "id": 15,
+      "code": "3.1",
+      "name_pt": "Pastagem",
+      "name_en": "Pasture",
+      "hex_code": "#edde8e",
+      "level": 2,
+      "parent_id": 14
+    },
+    {
+      "id": 18,
+      "code": "3.2",
+      "name_pt": "Agricultura",
+      "name_en": "Agriculture",
+      "hex_code": "#e974ed",
+      "level": 2,
+      "parent_id": 14
+    },
+    {
+      "id": 19,
+      "code": "3.2.1",
+      "name_pt": "Lavoura Temporária",
+      "name_en": "Temporary Crop",
+      "hex_code": "#c27ba0",
+      "level": 3,
+      "parent_id": 18
+    },
+    {
+      "id": 39,
+      "code": "3.2.1.1",
+      "name_pt": "Soja",
+      "name_en": "Soybean",
+      "hex_code": "#f5b3c8",
+      "level": 4,
+      "parent_id": 19
+    },
+    {
+      "id": 20,
+      "code": "3.2.1.2",
+      "name_pt": "Cana",
+      "name_en": "Sugar cane",
+      "hex_code": "#db7093",
+      "level": 4,
+      "parent_id": 19
+    },
+    {
+      "id": 40,
+      "code": "3.2.1.3",
+      "name_pt": "Arroz",
+      "name_en": "Rice",
+      "hex_code": "#c71585",
+      "level": 4,
+      "parent_id": 19
+    },
+    {
+      "id": 62,
+      "code": "3.2.1.4",
+      "name_pt": "Algodão (beta)",
+      "name_en": "Cotton (beta)",
+      "hex_code": "#ff69b4",
+      "level": 4,
+      "parent_id": 19
+    },
+    {
+      "id": 41,
+      "code": "3.2.1.5",
+      "name_pt": "Outras Lavouras Temporárias",
+      "name_en": "Other Temporary Crops",
+      "hex_code": "#f54ca9",
+      "level": 4,
+      "parent_id": 19
+    },
+    {
+      "id": 36,
+      "code": "3.2.2",
+      "name_pt": "Lavoura Perene",
+      "name_en": "Perennial Crop",
+      "hex_code": "#d082de",
+      "level": 3,
+      "parent_id": 18
+    },
+    {
+      "id": 46,
+      "code": "3.2.2.1",
+      "name_pt": "Café",
+      "name_en": "Coffee",
+      "hex_code": "#d68fe2",
+      "level": 4,
+      "parent_id": 36
+    },
+    {
+      "id": 47,
+      "code": "3.2.2.2",
+      "name_pt": "Citrus",
+      "name_en": "Citrus",
+      "hex_code": "#9932cc",
+      "level": 4,
+      "parent_id": 36
+    },
+    {
+      "id": 35,
+      "code": "3.2.2.3",
+      "name_pt": "Dendê",
+      "name_en": "Palm Oil",
+      "hex_code": "#9065d0",
+      "level": 4,
+      "parent_id": 36
+    },
+    {
+      "id": 48,
+      "code": "3.2.2.4",
+      "name_pt": "Outras Lavouras Perenes",
+      "name_en": "Other Perennial Crops",
+      "hex_code": "#e6ccff",
+      "level": 4,
+      "parent_id": 36
+    },
+    {
+      "id": 9,
+      "code": "3.3",
+      "name_pt": "Silvicultura",
+      "name_en": "Forest Plantation",
+      "hex_code": "#7a5900",
+      "level": 2,
+      "parent_id": 14
+    },
+    {
+      "id": 21,
+      "code": "3.4",
+      "name_pt": "Mosaico de Usos",
+      "name_en": "Mosaic of Uses",
+      "hex_code": "#ffefc3",
+      "level": 2,
+      "parent_id": 14
+    },
+
+    {
+      "id": 22,
+      "code": "4",
+      "name_pt": "Área não vegetada",
+      "name_en": "Non vegetated area",
+      "hex_code": "#d4271e",
+      "level": 1,
+      "parent_id": null
+    },
+    {
+      "id": 23,
+      "code": "4.1",
+      "name_pt": "Praia, Duna e Areal",
+      "name_en": "Beach, Dune and Sand Spot",
+      "hex_code": "#ffa07a",
+      "level": 2,
+      "parent_id": 22
+    },
+    {
+      "id": 24,
+      "code": "4.2",
+      "name_pt": "Área Urbanizada",
+      "name_en": "Urban Area",
+      "hex_code": "#d4271e",
+      "level": 2,
+      "parent_id": 22
+    },
+    {
+      "id": 30,
+      "code": "4.3",
+      "name_pt": "Mineração",
+      "name_en": "Mining",
+      "hex_code": "#9c0027",
+      "level": 2,
+      "parent_id": 22
+    },
+    {
+      "id": 75,
+      "code": "4.4",
+      "name_pt": "Usina Fotovoltaica",
+      "name_en": "Photovoltaic Power Plant",
+      "hex_code": "#757272",
+      "level": 2,
+      "parent_id": 22
+    },
+    {
+      "id": 91,
+      "code": "4.5",
+      "name_pt": "Parque eólico (beta)",
+      "name_en": "Wind farm (beta)",
+      "hex_code": "#403d3e",
+      "level": 2,
+      "parent_id": 22
+    },
+    {
+      "id": 25,
+      "code": "4.6",
+      "name_pt": "Outras Áreas não Vegetadas",
+      "name_en": "Other non Vegetated Areas",
+      "hex_code": "#db4d4f",
+      "level": 2,
+      "parent_id": 22
+    },
+
+    {
+      "id": 26,
+      "code": "5",
+      "name_pt": "Corpo D'água",
+      "name_en": "Water",
+      "hex_code": "#2532e4",
+      "level": 1,
+      "parent_id": null
+    },
+    {
+      "id": 33,
+      "code": "5.1",
+      "name_pt": "Rio, Lago e Oceano",
+      "name_en": "River, Lake and Ocean",
+      "hex_code": "#2532e4",
+      "level": 2,
+      "parent_id": 26
+    },
+    {
+      "id": 31,
+      "code": "5.2",
+      "name_pt": "Aquicultura",
+      "name_en": "Aquaculture",
+      "hex_code": "#091077",
+      "level": 2,
+      "parent_id": 26
+    }
+  ]
+}

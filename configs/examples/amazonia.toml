@@ -1,0 +1,38 @@
+[dados_entrada]
+# Nome do arquivo GeoTIFF dentro de 'inputs/geotiff/'
+geotiff_entrada = "brazil_coverage-col11_2025.tif"
+
+# Nome do vetor de recorte dentro de 'inputs/vector/' (suporta .shp, .gpkg, .geojson)
+vetor_corte = "amazonia.geojson"
+
+# Configuração de legenda
+# Escolha a coleção (ex:collection_11, custom) - o arquivo .json deve estar na pasta legends/
+colecao_legenda = "collection_11"
+
+# Nível hierárquico do MapBiomas (1 a 4)
+nivel_hierarquico = 4
+
+# Resolução desejada em metros (mínimo nativo: 30.0)
+# Vai depender da capacidade de processamento, de RAM e do tamanho da área de interesse
+# Se receber 'Killed' ou equivalente no terminal, aumente a resolução (ex: 120, 300, 600)
+resolucao_metros = 300.0
+
+
+[mapa_estatico]
+formato_figura = "png"         # Opções: "png" ou "svg"
+show_title = true              # Exibir título do mapa
+show_legend = true             # Exibir legenda de classes
+show_gridlines = false         # Linhas de grade
+show_lat_lon_labels = true     # Coordenadas nos eixos
+show_frame = true              # Moldura ao redor do mapa
+show_north_arrow = true        # Rosa dos ventos
+show_scale_bar = true          # Barra de escala
+
+# Posicionamento da barra de escala e da rosa dos ventos
+# Opções: "auto", "bottom-left", "bottom-right", "top-left", "top-right"
+elements_loc = "auto"
+
+
+[exportacoes_opcionais]
+exportar_geotiff = true        # Salva GeoTIFF reclassificado em 'outputs/geotiff/'
+exportar_html = true           # Salva mapa interativo em 'outputs/html/'

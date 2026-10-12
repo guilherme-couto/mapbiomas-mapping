@@ -1,0 +1,64 @@
+# PYTHON & AMBIENTES VIRTUAIS
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ambientes virtuais
+eco-env/
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ARQUIVOS DE SISTEMA OPERACIONAL & IDES
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDEs (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ENTRADAS PESADAS
+# Bloqueia os rasters GeoTIFF volumosos baixados pelo usuário
+inputs/geotiff/*.tif
+inputs/geotiff/*.tiff
+inputs/geotiff/*.ovr
+inputs/geotiff/*.aux.xml
+
+# Garante a preservação da pasta via .gitkeep
+!inputs/geotiff/.gitkeep
+
+# SAÍDAS DO PROCESSAMENTO (OUTPUTS)
+# Bloqueia imagens geradas em outputs/figs/, mantendo a pasta de exemplos
+outputs/figs/*
+!outputs/figs/.gitkeep
+!outputs/figs/examples/
+!outputs/figs/examples/**
+
+# Bloqueia rasters gerados em outputs/geotiff/, mantendo a pasta de exemplos
+outputs/geotiff/*
+!outputs/geotiff/.gitkeep
+!outputs/geotiff/examples/
+!outputs/geotiff/examples/**
+
+# Bloqueia mapas HTML gerados em outputs/html/, mantendo a pasta de exemplos
+outputs/html/*
+!outputs/html/.gitkeep
+!outputs/html/examples/
+!outputs/html/examples/**
+
+# LOGS & ARQUIVOS TEMPORÁRIOS
+*.log
+*.tmp
+*.temp
