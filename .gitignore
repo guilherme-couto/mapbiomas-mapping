@@ -39,6 +39,12 @@ inputs/geotiff/*.aux.xml
 # Garante a preservação da pasta via .gitkeep
 !inputs/geotiff/.gitkeep
 
+# CONFIGURAÇÕES
+configs/*
+!configs/.gitkeep
+!configs/examples/
+!configs/examples/**
+
 # SAÍDAS DO PROCESSAMENTO (OUTPUTS)
 # Bloqueia imagens geradas em outputs/figs/, mantendo a pasta de exemplos
 outputs/figs/*
